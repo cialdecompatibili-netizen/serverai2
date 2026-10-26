@@ -3,12 +3,12 @@
     "id": "chi",
     "nome": "Chi siamo",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"chi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Chi siamo</p><h2 class=\"gc-h2\">Titolo della presentazione</h2><p class=\"gc-lead\">Chi siete, cosa fate e per chi.</p><p>Un paragrafo in più su come lavorate.</p></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec\" id=\"chi\"><div class=\"gc-wrap\"><p class=\"gc-eyebrow\">Chi siamo</p><h2 class=\"gc-h2\">Modelli open source, senza server da gestire</h2><p class=\"gc-lead\">ScalaAI dà accesso a modelli AI open source via API e chat, a consumo. Noi affittiamo la potenza di calcolo e facciamo girare i modelli, tu li usi.</p><p>Si parte dal basso e si cresce con la richiesta: dalla chat gratuita ai modelli dedicati e alle ore di GPU.</p></div></section></div>"
   },
   {
     "id": "principi",
     "nome": "Principi",
     "enabled": true,
-    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"principi\"><div class=\"gc-wrap\"><h2 class=\"gc-h2\">Come ci comportiamo</h2><div class=\"gc-plat\"><div class=\"gc-pl\"><span class=\"n\">1</span><b>Primo principio</b><p>Descrizione breve.</p></div><div class=\"gc-pl\"><span class=\"n\">2</span><b>Secondo principio</b><p>Descrizione breve.</p></div><div class=\"gc-pl\"><span class=\"n\">3</span><b>Terzo principio</b><p>Descrizione breve.</p></div></div></div></section></div>"
+    "html": "<div class=\"gc\"><section class=\"gc-sec gc-soft\" id=\"principi\"><div class=\"gc-wrap\"><h2 class=\"gc-h2\">Come lavoriamo</h2><div class=\"gc-plat\"><div class=\"gc-pl\"><span class=\"n\">1</span><b>Trasparenza</b><p>Scegli il modello e sai cosa usi e cosa paghi.</p></div><div class=\"gc-pl\"><span class=\"n\">2</span><b>Scala graduale</b><p>Parti piccolo e passi a più potenza solo quando serve.</p></div><div class=\"gc-pl\"><span class=\"n\">3</span><b>Open source</b><p>Usiamo modelli aperti, senza dipendere da un solo fornitore.</p></div></div></div></section></div>"
   }
 ]

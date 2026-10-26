@@ -4,20 +4,21 @@ title: "Servizi"
 permalink: /servizi/
 ref: servizi
 author_profile: false
-seo_description: "I nostri servizi."
+seo_description: "Cosa offre ScalaAI e come funziona."
 ---
 
-Una frase che presenta i servizi. Il prezzo e le condizioni si indicano solo se sono reali.
+Accesso a modelli AI open source via API e chat, a consumo. Ecco i livelli.
 
-## Primo servizio
-Descrizione del primo servizio: cosa include e per chi è.
+## API a consumo
+Credito prepagato per usare i modelli dalle tue app.
 
-## Secondo servizio
-Descrizione del secondo servizio.
+## Chat AI
+Chat con modelli open source, con prova gratuita.
 
-## Come si svolge un incarico
-1. **Primo passo**: descrizione.
-2. **Secondo passo**: descrizione.
-3. **Terzo passo**: descrizione.
+## Modelli dedicati
+Un modello solo tuo, con dati isolati.
 
-[Contattaci]({{ '/contatti/' | relative_url }}){: .btn .btn--primary}
+## Potenza di calcolo
+Ore di GPU per generare o addestrare.
+
+[Vedi i piani]({{ '/negozio/' | relative_url }}){: .btn .btn--primary}

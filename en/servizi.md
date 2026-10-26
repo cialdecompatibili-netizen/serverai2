@@ -1,27 +1,28 @@
 ---
 layout: single
 title: "Services"
-description: "Our services."
+description: "What ScalaAI offers and how it works."
 author_profile: false
 ref: servizi
 lang: en
 locale: en
 tr: tradotto
-tr_hash: u3h8wh
+tr_hash: 1mvekhp
 permalink: /en/services/
 ---
 
-One sentence introducing the services. State prices and conditions only if they are real.
+Access to open source AI models by API and chat, pay as you go. Here are the levels.
 
-## First service
-Description of the first service: what it includes and who it is for.
+## Pay-as-you-go API
+Prepaid credit to use the models from your apps.
 
-## Second service
-Description of the second service.
+## AI Chat
+Chat with open source models, with a free trial.
 
-## How an engagement works
-1. **First step**: description.
-2. **Second step**: description.
-3. **Third step**: description.
+## Dedicated models
+A model of your own, with isolated data.
 
-[Contact us]({{ '/en/contact/' | relative_url }}){: .btn .btn--primary}
+## Compute power
+GPU hours to generate or train.
+
+[See the plans]({{ '/en/shop/' | relative_url }}){: .btn .btn--primary}
