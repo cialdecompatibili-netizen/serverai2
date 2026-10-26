@@ -1,6 +1,18 @@
 [
   {
-    "nome": "esempio",
-    "slug": "esempio"
+    "nome": "api",
+    "slug": "api"
+  },
+  {
+    "nome": "chat",
+    "slug": "chat"
+  },
+  {
+    "nome": "dedicato",
+    "slug": "dedicato"
+  },
+  {
+    "nome": "gpu",
+    "slug": "gpu"
   }
 ]

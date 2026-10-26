@@ -2,33 +2,215 @@
   "_nota": "Catalogo dello shop (serve solo con ecommerce: true in _config.yml). Prezzi in CENTESIMI. Ogni prodotto/categoria ha anche una pagina in _negozio/ (layout negozio-prodotto con pid=<id>, negozio-categoria con cid=<id>). L'id categoria e' riservato. tipo: digitale (niente spedizione) o fisico. visibile:false nasconde senza cancellare. TRADUZIONI: ogni categoria/prodotto puo' avere \"tr\": {\"en\": {\"nome\": \"...\", \"descrizione\": \"...\", \"descrizione_completa\": \"...\"}}; campo mancante = si usa l'italiano.",
   "categorie": [
     {
-      "nome": "Esempio",
-      "id": "esempio",
-      "icona": "🛍️",
+      "nome": "API a consumo",
+      "id": "api",
+      "icona": "⚡",
       "tr": {
         "en": {
-          "nome": "Example"
+          "nome": "Pay-as-you-go API"
+        }
+      }
+    },
+    {
+      "nome": "Chat AI",
+      "id": "chat",
+      "icona": "💬",
+      "tr": {
+        "en": {
+          "nome": "AI Chat"
+        }
+      }
+    },
+    {
+      "nome": "Modelli dedicati",
+      "id": "dedicato",
+      "icona": "🖥",
+      "tr": {
+        "en": {
+          "nome": "Dedicated models"
+        }
+      }
+    },
+    {
+      "nome": "Potenza di calcolo",
+      "id": "gpu",
+      "icona": "🚀",
+      "tr": {
+        "en": {
+          "nome": "Compute power"
         }
       }
     }
   ],
   "prodotti": [
     {
-      "tipo": "digitale",
-      "id": "prodotto-esempio",
-      "nome": "Prodotto di esempio",
-      "categoria": "esempio",
+      "tipo": "servizio",
+      "id": "ai-credito-api-start",
+      "nome": "Credito API Start",
+      "categoria": "api",
       "prezzo_centesimi": 1000,
-      "descrizione": "Descrizione breve del prodotto di esempio.",
-      "descrizione_completa": "Descrizione completa del prodotto.\nOgni riga diventa un paragrafo.",
+      "descrizione": "Credito prepagato per i modelli open source piccoli e medi. Paghi solo quello che usi.",
+      "descrizione_completa": "Credito prepagato per i modelli open source piccoli e medi. Paghi solo quello che usi.\nAttivazione dopo la conferma. Si parte dal basso e si scala quando serve.",
       "immagine": "",
-      "icona": "🛍️",
+      "icona": "⚡",
       "visibile": true,
       "tr": {
         "en": {
-          "nome": "Example product",
-          "descrizione": "Short description of the example product.",
-          "descrizione_completa": "Full description of the product.\nEach line becomes a paragraph."
+          "nome": "API Credit Start",
+          "descrizione": "Prepaid credit for small and medium open source models. Pay only for what you use.",
+          "descrizione_completa": "Prepaid credit for small and medium open source models. Pay only for what you use.\nActivation after confirmation. Start small and scale when you need to."
+        }
+      }
+    },
+    {
+      "tipo": "servizio",
+      "id": "ai-credito-api-pro",
+      "nome": "Credito API Pro",
+      "categoria": "api",
+      "prezzo_centesimi": 5000,
+      "descrizione": "Credito prepagato con accesso a tutti i modelli, anche i grandi.",
+      "descrizione_completa": "Credito prepagato con accesso a tutti i modelli, anche i grandi.\nAttivazione dopo la conferma. Si parte dal basso e si scala quando serve.",
+      "immagine": "",
+      "icona": "⚡",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "API Credit Pro",
+          "descrizione": "Prepaid credit with access to every model, including the large ones.",
+          "descrizione_completa": "Prepaid credit with access to every model, including the large ones.\nActivation after confirmation. Start small and scale when you need to."
+        }
+      }
+    },
+    {
+      "tipo": "servizio",
+      "id": "ai-chat-free-trial",
+      "nome": "Chat Free Trial",
+      "categoria": "chat",
+      "prezzo_centesimi": 0,
+      "descrizione": "Prova la chat con i modelli piccoli, senza carta.",
+      "descrizione_completa": "Prova la chat con i modelli piccoli, senza carta.\nAttivazione dopo la conferma. Si parte dal basso e si scala quando serve.",
+      "immagine": "",
+      "icona": "💬",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Chat Free Trial",
+          "descrizione": "Try the chat with small models, no card needed.",
+          "descrizione_completa": "Try the chat with small models, no card needed.\nActivation after confirmation. Start small and scale when you need to."
+        }
+      }
+    },
+    {
+      "tipo": "servizio",
+      "id": "ai-chat-plus-mensile",
+      "nome": "Chat Plus mensile",
+      "categoria": "chat",
+      "prezzo_centesimi": 1500,
+      "descrizione": "Chat illimitata ragionevole con modelli medi e storico conversazioni.",
+      "descrizione_completa": "Chat illimitata ragionevole con modelli medi e storico conversazioni.\nAttivazione dopo la conferma. Si parte dal basso e si scala quando serve.",
+      "immagine": "",
+      "icona": "💬",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Chat Plus monthly",
+          "descrizione": "Fair-use chat with medium models and conversation history.",
+          "descrizione_completa": "Fair-use chat with medium models and conversation history.\nActivation after confirmation. Start small and scale when you need to."
+        }
+      }
+    },
+    {
+      "tipo": "servizio",
+      "id": "ai-chat-pro-mensile",
+      "nome": "Chat Pro mensile",
+      "categoria": "chat",
+      "prezzo_centesimi": 3500,
+      "descrizione": "Modelli grandi, priorita' di risposta e documenti allegati.",
+      "descrizione_completa": "Modelli grandi, priorita' di risposta e documenti allegati.\nAttivazione dopo la conferma. Si parte dal basso e si scala quando serve.",
+      "immagine": "",
+      "icona": "💬",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Chat Pro monthly",
+          "descrizione": "Large models, priority responses and file attachments.",
+          "descrizione_completa": "Large models, priority responses and file attachments.\nActivation after confirmation. Start small and scale when you need to."
+        }
+      }
+    },
+    {
+      "tipo": "servizio",
+      "id": "ai-modello-dedicato-small",
+      "nome": "Modello dedicato Small",
+      "categoria": "dedicato",
+      "prezzo_centesimi": 9900,
+      "descrizione": "Un modello open source solo tuo su CPU o GPU piccola, mensile.",
+      "descrizione_completa": "Un modello open source solo tuo su CPU o GPU piccola, mensile.\nAttivazione dopo la conferma. Si parte dal basso e si scala quando serve.",
+      "immagine": "",
+      "icona": "🖥",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Dedicated Small model",
+          "descrizione": "Your own open source model on CPU or small GPU, monthly.",
+          "descrizione_completa": "Your own open source model on CPU or small GPU, monthly.\nActivation after confirmation. Start small and scale when you need to."
+        }
+      }
+    },
+    {
+      "tipo": "servizio",
+      "id": "ai-modello-dedicato-medium",
+      "nome": "Modello dedicato Medium",
+      "categoria": "dedicato",
+      "prezzo_centesimi": 39900,
+      "descrizione": "Modello medio su GPU dedicata, latenza bassa e dati isolati, mensile.",
+      "descrizione_completa": "Modello medio su GPU dedicata, latenza bassa e dati isolati, mensile.\nAttivazione dopo la conferma. Si parte dal basso e si scala quando serve.",
+      "immagine": "",
+      "icona": "🖥",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "Dedicated Medium model",
+          "descrizione": "Medium model on a dedicated GPU, low latency and isolated data, monthly.",
+          "descrizione_completa": "Medium model on a dedicated GPU, low latency and isolated data, monthly.\nActivation after confirmation. Start small and scale when you need to."
+        }
+      }
+    },
+    {
+      "tipo": "servizio",
+      "id": "ai-gpu-a-ore-base",
+      "nome": "GPU a ore Base",
+      "categoria": "gpu",
+      "prezzo_centesimi": 2900,
+      "descrizione": "Pacchetto ore di GPU per generare o addestrare. Scegli tu il modello.",
+      "descrizione_completa": "Pacchetto ore di GPU per generare o addestrare. Scegli tu il modello.\nAttivazione dopo la conferma. Si parte dal basso e si scala quando serve.",
+      "immagine": "",
+      "icona": "🚀",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "GPU hourly Base",
+          "descrizione": "GPU hours bundle to generate or train. You choose the model.",
+          "descrizione_completa": "GPU hours bundle to generate or train. You choose the model.\nActivation after confirmation. Start small and scale when you need to."
+        }
+      }
+    },
+    {
+      "tipo": "servizio",
+      "id": "ai-gpu-a-ore-scale",
+      "nome": "GPU a ore Scale",
+      "categoria": "gpu",
+      "prezzo_centesimi": 19900,
+      "descrizione": "Pacchetto ore su GPU potenti, per carichi alti e picchi di richieste.",
+      "descrizione_completa": "Pacchetto ore su GPU potenti, per carichi alti e picchi di richieste.\nAttivazione dopo la conferma. Si parte dal basso e si scala quando serve.",
+      "immagine": "",
+      "icona": "🚀",
+      "visibile": true,
+      "tr": {
+        "en": {
+          "nome": "GPU hourly Scale",
+          "descrizione": "Hours bundle on powerful GPUs for heavy loads and request spikes.",
+          "descrizione_completa": "Hours bundle on powerful GPUs for heavy loads and request spikes.\nActivation after confirmation. Start small and scale when you need to."
         }
       }
     }
